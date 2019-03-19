@@ -6,9 +6,9 @@ using System.ComponentModel;
 
 namespace ASPDOTNETHWK
 {
-    public class Staff
+    public class PersonType
     {
-        public string Name
+        public string PersonTypes
         {
             get => default(string);
             set
@@ -16,7 +16,7 @@ namespace ASPDOTNETHWK
             }
         }
 
-        public int Age
+        public int PersonTypeID
         {
             get => default(int);
             set
@@ -24,25 +24,33 @@ namespace ASPDOTNETHWK
             }
         }
 
-        public int StaffID
+        public string Customers
         {
-            get => default(int);
+            get => default(string);
             set
             {
             }
         }
 
-        public Address Address
+        public Customers Customers1
         {
-            get => default(Address);
+            get => default(Customers);
             set
             {
             }
         }
 
-        public Address Address1
+        public string Clothes
         {
-            get => default(Address);
+            get => default(string);
+            set
+            {
+            }
+        }
+
+        public Clothes Clothes1
+        {
+            get => default(Clothes);
             set
             {
             }

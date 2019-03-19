@@ -6,43 +6,27 @@ using System.ComponentModel;
 
 namespace ASPDOTNETHWK
 {
-    public class Staff
+    public class Brands
     {
-        public string Name
+        public int BrandsID
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public int BrandType
+        {
+            get => default(int);
+            set
+            {
+            }
+        }
+
+        public string BrandLogo
         {
             get => default(string);
-            set
-            {
-            }
-        }
-
-        public int Age
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
-        public int StaffID
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
-        public Address Address
-        {
-            get => default(Address);
-            set
-            {
-            }
-        }
-
-        public Address Address1
-        {
-            get => default(Address);
             set
             {
             }

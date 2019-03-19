@@ -16,7 +16,31 @@ namespace ASPDOTNETHWK
             }
         }
 
-        public int StreetName
+        public string StreetName
+        {
+            get => default(string);
+            set
+            {
+            }
+        }
+
+        public string City
+        {
+            get => default(string);
+            set
+            {
+            }
+        }
+
+        public string PostCode
+        {
+            get => default(string);
+            set
+            {
+            }
+        }
+
+        public int AddressID
         {
             get => default(int);
             set
@@ -24,20 +48,12 @@ namespace ASPDOTNETHWK
             }
         }
 
-        public int City
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
-
-        public int PostCode
-        {
-            get => default(int);
-            set
-            {
-            }
-        }
+        //public Customers Customers
+        //{
+        //    get => default(Customers);
+        //    set
+        //    {
+        //    }
+        //}
     }
 }

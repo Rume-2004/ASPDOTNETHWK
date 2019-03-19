@@ -8,7 +8,23 @@ namespace ASPDOTNETHWK
 {
     public class Customers
     {
-        public int Name
+        public string Name
+        {
+            get => default(string);
+            set
+            {
+            }
+        }
+
+        public string Emails
+        {
+            get => default(string);
+            set
+            {
+            }
+        }
+
+        public int CustomersID
         {
             get => default(int);
             set
@@ -16,9 +32,9 @@ namespace ASPDOTNETHWK
             }
         }
 
-        public int Emails
+        public Address Address
         {
-            get => default(int);
+            get => default(Address);
             set
             {
             }
